@@ -1,0 +1,4 @@
+1. It's because it's not declared as number data type, so everything will return as a string unless Number() is declared in the code.
+2. It could be bug due to the fact that if you strict type checking it could lead to an unknown type of behavior which will cause problems.
+3. The operator that could come off confusing would the ==, and ===. I see them very similar but they're not and you have to be really careful when utilizing which one to use.
+4. It's useful when you need to go around a specific behavior in a code, or typically used for arithmatic problems.
